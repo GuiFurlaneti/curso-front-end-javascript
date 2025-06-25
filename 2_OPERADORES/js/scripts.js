@@ -52,12 +52,23 @@
 // console.log( 9 == "9");
 // console.log(0 === "9");
 
-// 11 - OPERADORES LÓGICOS
-console.log(true && true);
-console.log(true && false);
-console.log(5 > 2 && 2 < 10);
-console.log(5 > 2 && "Gui" === 1);
-console.log(5 > 2 || "Gui" === 1);
-console.log(5 < 2 || 5 > 200);
-console.log(!true);
-console.log(!5 > 2);
+// // 11 - OPERADORES LÓGICOS
+// console.log(true && true);
+// console.log(true && false);
+// console.log(5 > 2 && 2 < 10);
+// console.log(5 > 2 && "Gui" === 1);
+// console.log(5 > 2 || "Gui" === 1);
+// console.log(5 < 2 || 5 > 200);
+// console.log(!true);
+// console.log(!5 > 2);
+
+// // 12 - EMPTY VALUES
+// console.log(typeof null, typeof undefined);
+// console.log(null == undefined);
+// console.log(null == false)
+
+// // 13 - MUDANÇA DE TIPOS
+// console.log(5 * null);
+// console.log("teste" * "opa");
+// console.log("10" + 1);
+// console.log("10" - 1);
