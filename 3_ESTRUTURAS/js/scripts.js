@@ -49,56 +49,92 @@ console.log(_teste, $teste);
 // console.error("Errrror");
 // console.warn("aviseeei");
 
-// 7 - IF
-const m = 10;
+// // 7 - IF
+// const m = 10;
 
-if(m > 5) {
-    console.log("M é maior que 5");
+// if(m > 5) {
+//     console.log("M é maior que 5");
+// }
+
+// const user = "João"
+// if(user === "João") {
+//     console.log("To certo!");
+// }
+
+// if(user === "Maria") {
+//     console.log("TO CERTOO!");
+// }
+
+// // 8 - ELSE
+// const loggedIn = false
+
+// if(loggedIn) {
+//     console.log("Está autenticado!");
+// } else {
+//     console.log("Não está autenticado!");
+// }
+
+// const q = 10
+// const w = 15
+
+// if(q > 5 && w > 20) {
+//     console.log("Numeros mais altos");
+// } else {
+//     console.log("Não sao mais altos");
+// }
+
+// //  9 - ELSE IF
+// if(1 > 2) {
+//     console.log("test");
+// } else if(2 > 3) {
+//     console.log("test2");
+// } else if(5 > 1) {
+//     console.log("agora sim");
+// }
+
+// const userName = "Matheus"
+// const userAge = 31
+
+// if(userName === "José") {
+//     console.log("bem vindo jose");
+// } else if(userName === "Matheus" && userAge === 31) {
+//     console.log("Olá matheus vc tem 31 anos");
+// } else {
+//     console.log("nenhuma condicação aceita");
+// }
+
+// 10 - WHILE
+
+let p = 0
+while(p < 5) {
+    console.log(`Repetindo ${p}`)
+    p = p + 1;
 }
 
-const user = "João"
-if(user === "João") {
-    console.log("To certo!");
+// 11 - DO WHILE
+let o = 10
+
+do{
+    console.log(`Valor de o: ${o}`);
+    o--
+} while ( o > 1);
+
+// 12 - FOR
+for(let t = 0; t < 10; t++) {
+    console.log("Repetindo algo...");
 }
 
-if(user === "Maria") {
-    console.log("TO CERTOO!");
-}
+// // 13 - IDENTAÇÃO
+// for(let u = 0; u < 10; u++) {
 
-// 8 - ELSE
-const loggedIn = false
+// }
 
-if(loggedIn) {
-    console.log("Está autenticado!");
-} else {
-    console.log("Não está autenticado!");
-}
+// 14 - BREAK
+for(let g = 20; g > 10; g--) {
+    console.log(`O valor de g é: ${g}`);
 
-const q = 10
-const w = 15
-
-if(q > 5 && w > 20) {
-    console.log("Numeros mais altos");
-} else {
-    console.log("Não sao mais altos");
-}
-
-//  9 - ELSE IF
-if(1 > 2) {
-    console.log("test");
-} else if(2 > 3) {
-    console.log("test2");
-} else if(5 > 1) {
-    console.log("agora sim");
-}
-
-const userName = "Matheus"
-const userAge = 31
-
-if(userName === "José") {
-    console.log("bem vindo jose");
-} else if(userName === "Matheus" && userAge === 31) {
-    console.log("Olá matheus vc tem 31 anos");
-} else {
-    console.log("nenhuma condicação aceita");
+    if(g === 15) {
+        console.log("O g é 15!");
+        break
+    }
 }
